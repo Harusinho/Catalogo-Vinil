@@ -4,9 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-table{
-  font-size: 12px;
-}
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -60,7 +57,9 @@ table{
     margin-right: auto;
     width: 100%;
 }
-
+table{
+  font-size: 12px;
+}
 .tabela, th, td {
   font-size: 12px;
   border-collapse: collapse;
@@ -91,15 +90,6 @@ table{
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
    
-}
-
-
-.material-symbols-outlined {
-font-variation-settings:
-'FILL' 0,
-'wght' 400,
-'GRAD' 0,
-'opsz' 24
 }
 
 .btn-icone {
